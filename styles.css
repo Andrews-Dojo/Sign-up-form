@@ -1,0 +1,58 @@
+:root {
+    --borders: 5px solid black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    border: var(--borders);
+    width: 75vw;
+    height: 75vh;
+}
+
+.image-side {
+    border: var(--borders);
+    display: flex;
+    width: 40vw;
+}
+
+.form-side {
+    border: var(--borders);
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-top {
+    display: flex;
+    flex-direction: column;
+    border: var(--borders);
+    height: 16em;
+}
+
+.form {
+    display: flex;
+    border: var(--borders);
+    height: 16em;
+}
+
+.form-bottom {
+    display: flex;
+    border: var(--borders);
+    height: 16em;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+}
+
+fieldset {
+    display: flex;
+    border-style: none;
+}

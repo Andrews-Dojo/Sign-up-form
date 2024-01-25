@@ -14,7 +14,13 @@
     <div class="container">
 
         <div class="image-side">
-            IMAGE / LOGO
+            <!-- <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cool image"> -->
+            <!-- <div class="logo_background"></div> -->
+            <div class="logo">
+                <img
+                    src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+                <h1>ODIN</h1>
+                </div>
         </div>
 
         <div class="form-side">
@@ -24,38 +30,43 @@
                 <p>Signup <em>now</em> to get started.</p>
             </div>
             <div class="form">
-                <fieldset> 
-                <ol>
-                    <li>
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" name="first_name">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                    </li>
-                    <li>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
-                    </li>
-                </ol>
-                <ol>
-                    <li>
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name">
-                    </li>
-                    <li>
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
-                    </li>
-                    <li>
-                        <label for="confirm_password">Confirm Password</label>
-                        <input type="password" id="confirm_password" name="confirm_password">
-                    </li>
-                </ol>
-            </fieldset>
+                <form action="/my-handling-form-page" method="post">
+                    <fieldset>
+                        <ol>
+                            <li>
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </li>
+                            <li>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password">
+                            </li>
+                        </ol>
+                        <ol>
+                            <li>
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" name="last_name">
+                            </li>
+                            <li>
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </li>
+                            <li>
+                                <label for="confirm_password">Confirm Password</label>
+                                <input type="password" id="confirm_password" name="confirm_password">
+                            </li>
+                        </ol>
+                    </fieldset>
+                </form>
             </div>
-            <div class="form-bottom">BOTTOM</div>
+            <div class="form-bottom">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? Log in</p>
+            </div>
         </div>
 
     </div>

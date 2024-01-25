@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up-form project</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="main.js"></script>
 </head>
 <!-- Img src to use: https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA -->
 
@@ -35,72 +34,62 @@
                         <ol>
                             <li>
                                 <label for="first_name">First Name
-
                                 </label>
                             </li>
                             <li>
-
                                 <input type="text" id="first_name" name="first_name">
                             </li>
                             <li><label for="email">Email
-
                                 </label></li>
                             <li>
-                                
                                 <input type="email" id="email" name="email">
                             </li>
                             <li>
                                 <label for="password">Password
-
                                 </label>
-                                
                             </li>
                             <li>
-                                
-                                <input class="error" type="password" id="password" name="password" minlength="8" required>
-                               
+                                <input class="error" type="password" id="password" name="password" minlength="8"
+                                    required>
                             </li>
+                            <p id="message"></p>
                         </ol>
                         <ol>
                             <li>
                                 <label for="last_name">Last Name
-
                                 </label>
                             </li>
                             <li>
-                                
                                 <input type="text" id="last_name" name="last_name">
                             </li>
                             <li>
                                 <label for="phone">Phone Number
-
                                 </label>
                             </li>
                             <li>
-                                
                                 <input type="tel" id="phone" name="phone">
                             </li>
                             <li>
                                 <label for="confirm_password">Confirm Password
-
                                 </label>
                             </li>
                             <li>
+                                <input class="error" type="password" id="confirm_password" name="confirm_password"   required>
                                 
-                                <input class="error" type="password" id="confirm_password" name="confirm_password" minlength="8" required>
                             </li>
                         </ol>
                     </fieldset>
-                </form>
+                
             </div>
             <div class="form-bottom">
                 <button id="submit" type="submit">Create Account</button>
                 <p>Already have an account? Log in</p>
             </div>
+        </form>
         </div>
 
     </div>
-
+    <script src="main.js"></script>
 </body>
 
 </html>

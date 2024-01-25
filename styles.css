@@ -65,25 +65,33 @@ body{
     flex-direction: column;
     border: var(--borders);
     height: calc(100vh/3);
-    background-color:aqua;
+    background-color:whitesmoke;
 }
 
 .form {
     display: flex;
     border: var(--borders);
     height: calc(100vh/3);
-    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 6px rgba(0, 4px, 6px, 0.5);
+    
 }
 
 .form-bottom {
     border: var(--borders);
     height: calc(100vh/3);
-    background-color:white;
+    background-color:whitesmoke;
+    padding: 20px;
 }
 
 li {
     list-style: none;
-    padding: 8px;
+    /* padding: 8px; */
+}
+
+li input {
+    margin-bottom: 20px;
+    margin-right: 60px;
+    margin-top: 5px;
 }
 
 fieldset {
@@ -92,13 +100,53 @@ fieldset {
 }
 
 button {
-    margin: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: #596D48;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     color: white;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .form-bottom p {
-    margin: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+#first_name:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+#last_name:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+#email:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+#password:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+#phone:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+#confirm_password:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
 }
 

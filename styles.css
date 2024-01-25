@@ -88,6 +88,7 @@ li {
     /* padding: 8px; */
 }
 
+
 li input {
     margin-bottom: 20px;
     margin-right: 60px;
@@ -150,3 +151,7 @@ button {
     box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
 }
 
+.error:invalid {
+    border: 1px solid red;
+    box-shadow: 0 0 2px red;
+}

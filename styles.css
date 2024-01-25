@@ -1,6 +1,8 @@
 :root {
-    --borders: 5px solid black;
+   --borders: 0px solid black; 
 }
+
+
 
 body{
     display: flex;
@@ -10,19 +12,49 @@ body{
 .container {
     display: flex;
     border: var(--borders);
-    width: 75vw;
-    height: 75vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .image-side {
     border: var(--borders);
     display: flex;
-    width: 40vw;
+    width: calc(100vw/3);
+    background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logo img{
+    height: 10vh;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.logo {
+    width: calc(100vw/3);
+    height: 15vh;
+    background-color: rgb(26, 25, 25, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: calc((100vh/3)*2);
+}
+
+.logo_background {
+    /* width: calc(100vw/3);
+    height: 20vh;
+    background-color: rgb(26, 25, 25, 0.5); */
 }
 
 .form-side {
     border: var(--borders);
-    width: 60vw;
+    width: calc((100vw/3) * 2) ;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -32,19 +64,21 @@ body{
     display: flex;
     flex-direction: column;
     border: var(--borders);
-    height: 16em;
+    height: calc(100vh/3);
+    background-color:aqua;
 }
 
 .form {
     display: flex;
     border: var(--borders);
-    height: 16em;
+    height: calc(100vh/3);
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.5);
 }
 
 .form-bottom {
-    display: flex;
     border: var(--borders);
-    height: 16em;
+    height: calc(100vh/3);
+    background-color:white;
 }
 
 li {
@@ -56,3 +90,15 @@ fieldset {
     display: flex;
     border-style: none;
 }
+
+button {
+    margin: 10px;
+    background-color: #596D48;
+    border-radius: 10%;
+    color: white;
+}
+
+.form-bottom p {
+    margin: 10px;
+}
+

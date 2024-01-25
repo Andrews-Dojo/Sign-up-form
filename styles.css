@@ -76,6 +76,11 @@ body{
     
 }
 
+.form p {
+    margin-top: -20px;
+    font-size: 14px;
+}
+
 .form-bottom {
     border: var(--borders);
     height: calc(100vh/3);
@@ -123,27 +128,27 @@ button {
 
 #first_name:focus {
     border-color: blue;
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 #last_name:focus {
     border-color: blue;
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 #email:focus {
     border-color: blue;
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 #password:focus {
     border-color: blue;
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 #phone:focus {
     border-color: blue;
-    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 #confirm_password:focus {

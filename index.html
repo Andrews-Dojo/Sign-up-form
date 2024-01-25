@@ -24,9 +24,11 @@
 
         <div class="form-side">
             <div class="form-top">
+                <div class="form-top-div"> 
                 <p>This is not a real online service! Are you ready to signup for this life changing platform? This is
                     going to be the best thing you do.</p>
-                <p>Signup <em>now</em> to get started.</p>
+                <p>Signup now to get started.</p>
+            </div>
             </div>
             <div class="form">
                 <form action="/my-handling-form-page" method="post">
@@ -37,19 +39,19 @@
                                 </label>
                             </li>
                             <li>
-                                <input type="text" id="first_name" name="first_name">
+                                <input type="text" id="first_name" name="first_name" size="25"required>
                             </li>
                             <li><label for="email">Email
                                 </label></li>
                             <li>
-                                <input type="email" id="email" name="email">
+                                <input type="email" id="email" name="email" size="25" required>
                             </li>
                             <li>
                                 <label for="password">Password
                                 </label>
                             </li>
                             <li>
-                                <input class="error" type="password" id="password" name="password" minlength="8"
+                                <input class="error" type="password" id="password" name="password" size="25" minlength="8"
                                     required>
                             </li>
                             <p id="message"></p>
@@ -60,21 +62,21 @@
                                 </label>
                             </li>
                             <li>
-                                <input type="text" id="last_name" name="last_name">
+                                <input type="text" id="last_name" name="last_name"  size="25">
                             </li>
                             <li>
                                 <label for="phone">Phone Number
                                 </label>
                             </li>
                             <li>
-                                <input type="tel" id="phone" name="phone">
+                                <input type="tel" id="phone" name="phone"  size="25">
                             </li>
                             <li>
                                 <label for="confirm_password">Confirm Password
                                 </label>
                             </li>
                             <li>
-                                <input class="error" type="password" id="confirm_password" name="confirm_password"   required>
+                                <input class="error" type="password" id="confirm_password" name="confirm_password"  size="25"  required>
                                 
                             </li>
                         </ol>

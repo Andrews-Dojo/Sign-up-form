@@ -53,10 +53,12 @@
                                 <label for="password">Password
 
                                 </label>
+                                
                             </li>
                             <li>
                                 
-                                <input class="error" type="password" id="password" name="password">
+                                <input class="error" type="password" id="password" name="password" minlength="8" required>
+                               
                             </li>
                         </ol>
                         <ol>
@@ -85,14 +87,14 @@
                             </li>
                             <li>
                                 
-                                <input class="error" type="password" id="confirm_password" name="confirm_password">
+                                <input class="error" type="password" id="confirm_password" name="confirm_password" minlength="8" required>
                             </li>
                         </ol>
                     </fieldset>
                 </form>
             </div>
             <div class="form-bottom">
-                <button type="submit">Create Account</button>
+                <button id="submit" type="submit">Create Account</button>
                 <p>Already have an account? Log in</p>
             </div>
         </div>
